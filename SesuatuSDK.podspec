@@ -9,9 +9,11 @@ s.author           = { "uziwuzzy" => "https://github.com/uziwuzzy/"}
 s.source           = { :git => "https://github.com/uziwuzzy/SesuatuSDK.git", :tag => s.version}
 s.platform     = :ios
 s.ios.deployment_target  = "13.0"
+s.swift_version = '5.1'
 s.source_files = 'Sources/SesuatuSDK/**/*'
 s.dependency "RxAlamofire"
 s.dependency "NeedleFoundation"
 s.dependency "SnapKit"
+s.dependency "RxCocoa"
 
 end
