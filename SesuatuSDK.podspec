@@ -10,6 +10,7 @@ s.source           = { :git => "https://github.com/uziwuzzy/SesuatuSDK", :tag =>
 s.platform     = :ios
 s.requires_arc = true
 s.ios.deployment_target  = "13.0"
+s.source_files = 'Sources/SesuatuSDK/**/*'
 s.dependency "RxAlamofire"
 s.dependency "NeedleFoundation"
 s.dependency "SnapKit"
