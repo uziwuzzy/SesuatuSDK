@@ -6,10 +6,11 @@ s.summary          = "a pure swift library compatible with obj-c and swift"
 s.homepage         = "https://github.com/uziwuzzy/SesuatuSDK"
 s.license          = 'MIT'
 s.author           = { "uziwuzzy" => "https://github.com/uziwuzzy/"}
-s.source           = { :git => "https://github.com/uziwuzzy/SesuatuSDK", :tag => s.version}
+s.source           = { :git => "https://github.com/uziwuzzy/SesuatuSDK.git", :tag => s.version}
 s.platform     = :ios
 s.requires_arc = true
 s.ios.deployment_target  = "13.0"
+s.swift_version = '5.0'
 s.source_files = 'Sources/SesuatuSDK/**/*'
 s.dependency "RxAlamofire"
 s.dependency "NeedleFoundation"
