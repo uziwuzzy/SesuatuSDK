@@ -4,7 +4,7 @@ s.name             = "SesuatuSDK"
 s.version          = "0.1.0"
 s.summary          = "a pure swift library compatible with obj-c and swift"
 s.homepage         = "https://github.com/uziwuzzy/SesuatuSDK"
-s.license          = 'MIT'
+s.license          = '{ :type => 'MIT', :file => 'LICENSE.md' 
 s.author           = { "uziwuzzy" => "https://github.com/uziwuzzy/"}
 s.source           = { :git => "https://github.com/uziwuzzy/SesuatuSDK.git", :tag => s.version}
 s.platform     = :ios
