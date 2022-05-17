@@ -10,7 +10,7 @@ s.source           = { :git => "https://github.com/uziwuzzy/SesuatuSDK.git", :ta
 s.platform     = :ios
 s.requires_arc = true
 s.ios.deployment_target  = "13.0"
-s.swift_version = '5.0'
+s.swift_version = '5.3'
 s.source_files = 'Sources/SesuatuSDK/**/*'
 s.dependency "RxAlamofire"
 s.dependency "NeedleFoundation"
