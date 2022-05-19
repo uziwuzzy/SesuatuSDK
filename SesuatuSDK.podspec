@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name             = "SesuatuSDK"
-s.version          = "0.1.0"
+s.version          = "0.1.1"
 s.summary          = "a pure swift library compatible with obj-c and swift"
 s.homepage         = "https://github.com/uziwuzzy/SesuatuSDK"
 s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
@@ -15,7 +15,11 @@ s.dependency "RxAlamofire"
 s.dependency "NeedleFoundation"
 s.dependency "SnapKit"
 s.dependency "RxCocoa"
+
 s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+##s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+##s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+##s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
